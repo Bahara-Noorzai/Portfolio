@@ -345,14 +345,6 @@ h5 {
   min-height: 80px;
 }
 
-textarea::-webkit-scrollbar {
-  width: 1em;
-}
-
-textarea::-webkit-scrollbar-thumb {
-  background-color: rgba(194, 194, 194, 0.713);
-}
-
 .contain form #button {
   border: none;
   background: white;
@@ -439,4 +431,19 @@ textarea::-webkit-scrollbar {
 
 textarea::-webkit-scrollbar-thumb {
   background-color: rgba(194, 194, 194, 0.713);
+}
+
+/* Moved specific textarea styles after scrollbar definitions */
+.contain form textarea {
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  font-weight: 200;
+  font-size: 15px;
+  padding: 10px;
+  outline: none;
+  min-width: 600px;
+  max-width: 600px;
+  min-height: 80px;
 }
