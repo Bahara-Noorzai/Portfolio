@@ -1,41 +1,36 @@
-* {
+*{
     padding: 0;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
-
-.navbar {
+.navbar{
     min-height: 100vh;
     background: url(IMG_7361.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     margin: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
-
-#padding {
+#padding{
     padding-left: 20%;
 }
-
-nav {
+nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
-
+    
 }
-
-.logo {
+.logo{
     color: white;
     font-size: 40px;
     letter-spacing: 1px;
     cursor: pointer;
 }
-
 .logo a::before {
     content: '';
     position: absolute;
@@ -46,30 +41,25 @@ nav {
     background: white;
     transition: .3s;
 }
-
 .logo a:hover::before {
     width: 100%;
 }
-
-nav ul li {
+nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 10px 20px;
 }
-
-nav ul li a {
+nav ul li a{
     color: darksalmon;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
 }
-
-nav ul li a:hover {
+nav ul li a:hover{
     color: white;
-    transition: .4s;
+    transition: .4s;  
 }
-
-.btn {
+.btn{
     background: white;
     color: darksalmon;
     text-decoration: none;
@@ -79,43 +69,36 @@ nav ul li a:hover {
     border-radius: 30px;
     transition: transform .4s;
 }
-
-.btn:hover {
+.btn:hover{
     transform: scale(1.2);
 }
-
-.content {
+.content{
     position: absolute;
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
 }
-
-h1 {
+h1{
     color: darksalmon;
     margin: 20px 0px 20px;
     font-size: 75px;
 }
-
-h3 {
+h3{
     color: darksalmon;
     font-size: 25px;
     margin-bottom: 50px;
 }
-
-h4 {
+h4{
     color: darksalmon;
     letter-spacing: 2px;
     font-size: 20px;
 }
-
-.newslatter form {
+.newslatter form{
     width: 380px;
     max-width: 100%;
     position: relative;
 }
-
-.newslatter form input:first-child {
+.newslatter form input:first-child{
     display: inline-block;
     width: 100%;
     padding: 14px 130px 18px 10px;
@@ -123,8 +106,7 @@ h4 {
     outline: none;
     border-radius: 30px;
 }
-
-.newslatter form input:last-child {
+.newslatter form input:last-child{
     position: absolute;
     display: inline-block;
     outline: none;
@@ -133,27 +115,25 @@ h4 {
     border-radius: 30px;
     background-color: darksalmon;
     color: white;
-    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    box-shadow: 0px 0px 5px #000,0px 0px 15px #858585;
     top: 6px;
     right: 6px;
 }
-
 .container {
     position: relative;
 }
-
 .image {
     position: absolute;
-    right: 10%;
+    right: 10%; 
     margin-top: 5%;
-    transform: translateY(-1%);
-    width: 370px;
-    height: 370px;
+    transform: translateY(-1%); 
+    width: 370px; 
+    height: 370px; 
     border: 2px solid darksalmon;
     border-radius: 50%;
     overflow: hidden;
-    transition: transform 0.3s ease-in-out;
-    animation: neon-ray 1s infinite alternate;
+    transition: transform 0.3s ease-in-out; 
+    animation: neon-ray 1s infinite alternate; 
 }
 
 .image img {
@@ -163,26 +143,23 @@ h4 {
 }
 
 .image:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); 
 }
-
-.about {
+.about{
     background: url(IMG_7363.jpg) no-repeat;
     width: 60%;
     padding: 60px 0px;
     background-size: cover;
     background-position: center;
 }
-
-.title h2 {
+.title h2{
     color: white;
     font-size: 75px;
     width: 1130px;
     margin: 13px auto;
     text-align: center;
 }
-
-.box {
+.box{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,8 +167,7 @@ h4 {
     padding-bottom: 100px;
     column-gap: 80px;
 }
-
-.card {
+.card{
     height: 520px;
     width: 500px;
     padding: 40px 35px;
@@ -203,25 +179,21 @@ h4 {
     text-align: center;
     transition: transform 0.3s ease-in-out;
 }
-
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
-
-h5 {
+h5{
     color: darksalmon;
     font-size: 23px;
     margin-bottom: 15px;
 }
-
-.pra p {
+.pra p{
     color: darksalmon;
     font-size: 16px;
     line-height: 22px;
     margin-bottom: 25px;
 }
-
 .project {
     background: url(image.jpg);
     width: 100%;
@@ -262,9 +234,8 @@ h5 {
     color: darksalmon;
     font-size: 16px;
     line-height: 22px;
-    margin-bottom: 25px
+    margin-bottom: 25px    
 }
-
 .button {
     background-color: darksalmon;
     color: gray;
@@ -275,14 +246,12 @@ h5 {
     border-radius: 30px;
     transition: .4s;
 }
-
 .button:hover {
     background-color: transparent;
     border: 2px solid darksalmon;
     cursor: pointer;
 }
-
-.contain {
+.contain{
     min-height: 100vh;
     background: white;
     display: flex;
@@ -290,34 +259,30 @@ h5 {
     align-items: center;
     background: url(IMG_7451.jpg) no-repeat center center/cover;
 }
-
-.contain form {
+.contain form{
     width: 670px;
     height: 400px;
     display: flex;
     justify-content: center;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0, 5);
     border-radius: 15px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255,255,255,0.1);
     backdrop-filter: blur(10px);
     flex-wrap: wrap;
 }
-
-.contain form h1 {
+.contain form h1{
     color: white;
     font-weight: 500;
     margin-top: 20px;
     width: 500px;
     text-align: center;
 }
-
-.message {
+.message{
     color: white;
-    margin-top: 20px;
+    margin-top: 20px; 
     text-align: left;
 }
-
-.contain form input {
+.contain form input{
     width: 290px;
     height: 40px;
     padding-left: 10px;
@@ -328,24 +293,20 @@ h5 {
     background: none;
     border-bottom: 2px solid white;
 }
-
-.contain form input::placeholder {
+.contain form input::placeholder{
     color: white;
 }
-
 .contain form #lastName,
-.contain form #mobile {
+.contain form #mobile{
     margin-left: 20px;
 }
-
-.containform h4 {
+.containform h4{
     color: white;
     font-weight: 300;
     width: 600px;
     margin-top: 20px;
 }
-
-.contain form textarea {
+.contain form textarea{
     background: none;
     border: none;
     border-bottom: 2px solid white;
@@ -359,16 +320,13 @@ h5 {
     min-height: 80px;
     max-width: 80px;
 }
-
-textarea::-webkit-scrollbar {
+textarea::-webkit-scrollbar{
     width: 1em;
 }
-
-textarea::-webkit-scrollbar-thumb {
-    background-color: rgba(194, 194, 194, 0.713);
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194,194,194,0.713);
 }
-
-.contain form #button {
+.contain form #button{
     border: none;
     background: white;
     border-radius: 5px;
@@ -382,12 +340,10 @@ textarea::-webkit-scrollbar-thumb {
     margin-bottom: 30px;
     transition: 0.3s;
 }
-
-.contain form #button:hover {
+.contain form #button:hover{
     opacity: 0.7;
 }
-
-footer {
+footer{
     background: url(IMG_7451%20-%20Copy.jpg);
     position: relative;
     color: white;
@@ -399,9 +355,7 @@ footer {
     align-items: center;
     flex-direction: column;
 }
-
-footer .social-icon,
-footer .menu {
+footer .social-icon, footer .menu{
     position: relative;
     color: white;
     display: flex;
@@ -410,26 +364,20 @@ footer .menu {
     margin: 10px 0;
     flex-wrap: wrap;
 }
-
-footer .social-icon li,
-footer .menu li {
+footer .social-icon li, footer .menu li{
     list-style: none;
 }
-
-footer .social-icon li a {
+footer .social-icon li a{
     font-size: 2em;
-    color: white;
-    ;
+    color: white;;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
 }
-
-footer .social-icon li a:hover {
+footer .social-icon li a:hover{
     transform: translateY(-10px);
 }
-
-footer .menu li a {
+footer .menu li a{
     font-size: 1.2em;
     color: black;
     margin: 0 10px;
@@ -437,12 +385,10 @@ footer .menu li a {
     text-decoration: none;
     opacity: 0.75;
 }
-
-footer .menu li a:hover {
+footer .menu li a:hover{
     opacity: 1;
 }
-
-footer p {
+footer p{
     color: darksalmon;
     text-align: center;
     margin-top: 15px;
