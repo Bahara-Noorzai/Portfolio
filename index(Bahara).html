@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style(Bahara).css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -10,7 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -29,7 +29,7 @@
           <ul id="padding">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#project">Project</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
           <a href="#" class="btn">Subscribe</a>
@@ -37,8 +37,8 @@
         <div class="content">
           <h4>Hello, welcome to my portfolio. My name is</h4>
           <h1>Bahara Noorzai</h1>
-          <h3>I am a passioante software engineering student.</h3>
-          <div class="newslatter">
+          <h3>I am a passionate software engineering student.</h3>
+          <div class="newsletter">
             <form>
               <input
                 type="email"
@@ -46,7 +46,7 @@
                 id="mail"
                 placeholder="Enter Your Email"
               />
-              <input type="submit" name="submit" value="Lets Start" />
+              <input type="submit" name="submit" value="Let's Start" />
             </form>
           </div>
         </div>
@@ -57,6 +57,7 @@
         </div>
       </div>
     </section>
+
     <!--About Section Start-->
     <section id="about">
       <div class="about">
@@ -116,6 +117,7 @@
         </div>
       </div>
     </section>
+
     <!--Project Section-->
     <section id="projects">
       <div class="project">
@@ -148,7 +150,8 @@
           <a
             href="https://www.figma.com/design/1NFNPZ5Bx6kgc0nIY5keQ8/Portfolio-Designing?node-id=3-582&t=H3W10WGzEomOHfgl-1"
             class="button"
-            target="_blank" rel="noopener"
+            target="_blank"
+            rel="noopener noreferrer"
             >View Portfolio Design</a
           >
           <br /><br /><br /><br />
@@ -164,7 +167,8 @@
           <a
             href="https://www.figma.com/design/MPgHGAbfe8NcFbdSGm6iVm/Wireframing?node-id=3-53&t=blDDh3rP16DxvIrG-1"
             class="button"
-            target="_blank" rel="noopener"
+            target="_blank"
+            rel="noopener noreferrer"
             >View LearnHub Project</a
           >
           <br /><br /><br /><br />
@@ -179,7 +183,8 @@
           <a
             href="https://github.com/Bahara-Noorzai/New-Repos/pulls"
             class="button"
-            target="_blank" rel="noopener"
+            target="_blank"
+            rel="noopener noreferrer"
             >View Survey Form</a
           >
           <br /><br /><br /><br />
@@ -195,12 +200,14 @@
           <a
             href="https://github.com/Bahara-Noorzai/Tribute-page/pull/1"
             class="button"
-            target="_blank" rel="noopener"
+            target="_blank"
+            rel="noopener noreferrer"
             >View Tribute Page</a
           >
         </div>
       </div>
     </section>
+
     <!--Contact Section-->
     <section id="contact">
       <div class="contain">
@@ -208,41 +215,8 @@
           <h1>Contact Me</h1>
           <input type="text" id="firstName" placeholder="First Name" required />
           <input type="text" id="lastName" placeholder="Last Name" required />
-          <input type="text" id="email" placeholder="Email" required />
-          <input type="text" id="mobile" placeholder="Mobile" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <input type="tel" id="mobile" placeholder="Mobile" required />
           <h4 class="message">Type Your Message Here</h4>
           <textarea required></textarea>
-          <input type="submit" value="Send" id="button" />
-        </form>
-      </div>
-      <!--Footer Start-->
-      <footer>
-        <ul class="social-icon">
-          <li>
-            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-          </li>
-          <li>
-            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-          </li>
-          <li>
-            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
-          </li>
-          <li>
-            <a href="#"><ion-icon name="mail"></ion-icon></a>
-          </li>
-          <li>
-            <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
-          </li>
-        </ul>
-        <ul class="menu">
-          <li><a href="#"></a>Home</li>
-          <li><a href="#"></a>About</li>
-          <li><a href="#"></a>Project</li>
-          <li><a href="#"></a>Contact</li>
-        </ul>
-        <p>© 2024 Bahara Noorzai | All Rights Reserved</p>
-      </footer>
-      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    </section>
-  </body>
-</html>
+          <input type
