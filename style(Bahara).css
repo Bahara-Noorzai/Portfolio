@@ -431,3 +431,12 @@ footer p {
   margin: 15px 0;
   font-size: 1.1em;
 }
+
+/* Adjustments to selector order for specificity */
+textarea::-webkit-scrollbar {
+  width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: rgba(194, 194, 194, 0.713);
+}
