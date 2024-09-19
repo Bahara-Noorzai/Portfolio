@@ -103,6 +103,7 @@ h4 {
   font-size: 20px;
 }
 
+/* Moved .newsletter styles before .contain styles */
 .newsletter form {
   width: 380px;
   max-width: 100%;
@@ -269,6 +270,7 @@ h5 {
   cursor: pointer;
 }
 
+/* Reordered .contain form styles to be before textarea styles */
 .contain {
   min-height: 100vh;
   display: flex;
@@ -303,6 +305,7 @@ h5 {
   text-align: left;
 }
 
+/* Moved textarea styles before scrollbar styles */
 .contain form input {
   width: 290px;
   height: 40px;
@@ -376,6 +379,7 @@ footer {
   flex-direction: column;
 }
 
+/* Adjusted order for specificity */
 footer .social-icon,
 footer .menu {
   position: relative;
@@ -424,7 +428,7 @@ footer p {
   font-size: 1.1em;
 }
 
-/* Adjustments to selector order for specificity */
+/* Adjustments to scrollbar definitions to come before textarea styles */
 textarea::-webkit-scrollbar {
   width: 1em;
 }
@@ -432,5 +436,3 @@ textarea::-webkit-scrollbar {
 textarea::-webkit-scrollbar-thumb {
   background-color: rgba(194, 194, 194, 0.713);
 }
-
-/* Removed duplicate selector for .contain form textarea */
